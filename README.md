@@ -33,3 +33,5 @@ Beside of the blas tablegen we also have two other small usecases in these PRs: 
 There we handle simple OpenMP cases, as well as rules which don't completely overlap with the first set of tablegen rules. 
 The main difference is that they don't need to specify complex rules to differentiate each possibly active input argument,
 but in exchange have to be more precise about the modes under which they work and which input argument they require to be active.
+
+For the ongoing mentoring I would like to thank @wsmoses, as well as @reikdas and @tansongchen, which implemented earlier Blas handling code by hand and therefore helped me by providing a good comparison implementation.
